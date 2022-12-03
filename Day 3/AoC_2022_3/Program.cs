@@ -27,6 +27,7 @@ namespace AoC_2022_3
                     if (item1.Contains(Buchstaben[u]) && item2.Contains(Buchstaben[u]))
                     {
                         sum += u + 1;
+                        break;
                     }
                 }
             }
@@ -54,6 +55,7 @@ namespace AoC_2022_3
                         if (groups[0].Contains(Buchstaben[u]) && groups[1].Contains(Buchstaben[u]) && groups[2].Contains(Buchstaben[u]))
                         {
                             sum += u + 1;
+                            break;
                         }
                     }
                 }
